@@ -1,24 +1,67 @@
 *{
-    margin-left:20;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif 
 }
-
+body{
+    margin: 3rem;
+}
 hero{
     padding: 20px;
-    margin: 5px;
+    margin: 15px;
 }
 section{
-  font-size: 30px;
   margin: 5px;
+}
+div .skills{
+    display:flex;
+    flex-wrap: wrap;
+   
+}
+.skill-card{
+    border: 2px solid rgb(49, 48, 48);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    width: 70% ;
+}
+.category{
+    margin:5px;
+}
+.category-items{
+    margin: 10px;
+}
+topic{
+    font-size: 20px;
+}
+.content{
+    font-size: 15px;
 }
 nav{
     margin: 10px;
+    margin-right: 0;
+    display: flex;
+    padding-left: 50rem;
 }
 nav ul{
     list-style-type: none;
-    align-items: right;
+    
 }
 nav li{
 
     margin-right: 10px ;
     float: left;
+}
+
+.projects{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: auto;
+    gap: 10px;
+   
+}
+.projects-card{
+    border-radius: 10px;
+    border: 1px solid #333 ;
+}
+.projects div{
+    padding: 5px;
 }
