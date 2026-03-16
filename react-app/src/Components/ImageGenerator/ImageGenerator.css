@@ -26,6 +26,24 @@
     width: 450px;
 }
 
+.loading-bar{
+    width: 0px;
+    height: 8px;
+    background: white;
+}
+.loading-text{
+    font-size: 18px;
+}
+.loading-bar-full{
+    width: 512px;
+    height: 8px;
+    background: white;
+    transition: 15s;
+}
+.display-none{
+    display:none;
+}
+
 .search{
     display:flex;
     width: 1000px;
